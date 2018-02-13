@@ -17,12 +17,16 @@
     <node name="controller_spawner" pkg="dynamixel_controllers" type="controller_spawner.py"
           args="--manager=dxl_manager
                 --port robot_port
-		head_controller
-		right_shoulder_controller
+		head_controller 
+		neck_controller
+		right_shoulder_controller 
+		right_shoulder2_controller
 		left_shoulder_controller
+		left_shoulder2_controller 
 		right_elbow_controller
-		left_elbow_controller
-		
+		left_elbow_controller 
+		right_right_elbow2_controller 
+		left_elbow2_controller 
 		"
           output="screen"/>
           
@@ -31,11 +35,16 @@
     <node name="controller_spawner_meta" pkg="dynamixel_controllers" type="controller_spawner.py"
           args="--manager=dxl_manager
                 --type=meta
-                head_controller
-		right_shoulder_controller
+                head_controller 
+		neck_controller
+		right_shoulder_controller 
+		right_shoulder2_controller
 		left_shoulder_controller
+		left_shoulder2_controller 
 		right_elbow_controller
-		left_elbow_controller
+		left_elbow_controller 
+		right_right_elbow2_controller 
+		left_elbow2_controller
 		"
 	output="screen"/>
 </launch>
