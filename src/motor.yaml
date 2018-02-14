@@ -6,7 +6,7 @@ head_controller:
 	joint_name: head_joint
 	joint_speed: 2
 	motor:
-		id: 20
+		id: 1
 		init: 0
 		min: 1810
 		max: 2390
@@ -19,7 +19,7 @@ neck_controller:
     joint_name: neck_joint
     joint_speed: 2
     motor:
-        id: 19
+        id: 2
         init: 0
         min: 1050
         max: 3050
@@ -32,7 +32,7 @@ right_shoulder_controller:
     joint_name: right_shoulder_joint
     joint_speed: 0.7
     motor:
-        id: 1
+        id: 3
         init: 0
         min: 1000
         max: 4040
@@ -45,7 +45,7 @@ right_shoulder2_controller:
     joint_name: right_shoulder_joint
     joint_speed: 0.7
     motor:
-        id: 1
+        id: 4
         init: 0
         min: 1000
         max: 4040
@@ -58,7 +58,7 @@ left_shoulder_controller:
     joint_name: left_shoulder_joint
     joint_speed: 0.7
     motor:
-        id: 2
+        id: 7
         init: 0
         min: 60
         max: 3010
@@ -71,7 +71,7 @@ left_shoulder2_controller:
     joint_name: left_shoulder_joint
     joint_speed: 0.7
     motor:
-        id: 2
+        id: 8
         init: 0
         min: 60
         max: 3010
@@ -84,7 +84,7 @@ right_elbow_controller:
     joint_name: right_elbow_joint
     joint_speed: 0.7
     motor:
-        id: 3
+        id: 5
         init: 0
         min: 1660
         max: 2780
@@ -97,7 +97,7 @@ right_elbow2_controller:
     joint_name: right_elbow_joint
     joint_speed: 0.7
     motor:
-        id: 3
+        id: 6
         init: 0
         min: 1660
         max: 2780
@@ -110,7 +110,7 @@ left_elbow_controller:
     joint_name: left_elbow_joint
     joint_speed: 0.7
     motor:
-        id: 4
+        id: 9
         init: 0
         min: 1270
         max: 2420
@@ -123,7 +123,7 @@ left_elbow2_controller:
     joint_name: left_elbow_joint
     joint_speed: 0.7
     motor:
-        id: 4
+        id: 10
         init: 0
         min: 1270
         max: 2420
