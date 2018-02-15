@@ -8,8 +8,8 @@ head_controller:
 	motor:
 		id: 1
 		init: 0
-		min: 1810
-		max: 2390
+		min: 376
+		max: 616
         
 neck_controller:
     controller:
@@ -21,8 +21,8 @@ neck_controller:
     motor:
         id: 2
         init: 0
-        min: 1050
-        max: 3050
+        min: 241
+        max: 785
 
 right_shoulder_controller:
     controller:
@@ -34,8 +34,8 @@ right_shoulder_controller:
     motor:
         id: 3
         init: 0
-        min: 1000
-        max: 4040
+        min: 360
+        max: 821
 
 right_shoulder2_controller:
     controller:
@@ -47,8 +47,8 @@ right_shoulder2_controller:
     motor:
         id: 4
         init: 0
-        min: 1000
-        max: 4040
+        min: 360
+        max: 668
 
 left_shoulder_controller:
     controller:
@@ -60,8 +60,8 @@ left_shoulder_controller:
     motor:
         id: 7
         init: 0
-        min: 60
-        max: 3010
+        min: 206
+        max: 665
 
 left_shoulder2_controller:
     controller:
@@ -73,8 +73,8 @@ left_shoulder2_controller:
     motor:
         id: 8
         init: 0
-        min: 60
-        max: 3010
+        min: 360
+        max: 668
 
 right_elbow_controller:
     controller:
@@ -86,8 +86,8 @@ right_elbow_controller:
     motor:
         id: 5
         init: 0
-        min: 1660
-        max: 2780
+        min: 206
+        max: 819
 
 right_elbow2_controller:
     controller:
@@ -99,8 +99,8 @@ right_elbow2_controller:
     motor:
         id: 6
         init: 0
-        min: 1660
-        max: 2780
+        min: 360
+        max: 668
 
 left_elbow_controller:
     controller:
@@ -112,8 +112,8 @@ left_elbow_controller:
     motor:
         id: 9
         init: 0
-        min: 1270
-        max: 2420
+        min: 206
+        max: 819
 
 left_elbow2_controller:
     controller:
@@ -125,5 +125,5 @@ left_elbow2_controller:
     motor:
         id: 10
         init: 0
-        min: 1270
-        max: 2420
+        min: 360
+        max: 668
